@@ -108,7 +108,7 @@ function TextApp() {
                     <Form className="inline-form" onSubmit={handleSend}>
                         <Form.Control
                             value={input}
-                            type={isSensitive ? "pin" : "text"}
+                            type={isSensitive ? "password" : "text"}
                             onChange={(e) => setInput(e.target.value)}
                             disabled={isTranscribing}
                             style={{ marginRight: "0.5rem", display: "flex" }}
